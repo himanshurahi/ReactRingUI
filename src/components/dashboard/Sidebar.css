@@ -1,0 +1,49 @@
+.sidemenu {
+	background-color: black;
+	height: 100vh;
+	position: relative;
+}
+
+.sidemenu-items {
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.sidemenu-item {
+	padding: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.sidemenu-item svg {
+	margin: 5px;
+	font-size: 1.5rem;
+}
+
+.sidemenu-item:hover,
+.sidemenu-item span:hover {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+}
+.sidemenu-logo {
+	color: white;
+	text-align: center;
+	margin-top: 30%;
+}
+
+.bars_icon {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.active {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+}
